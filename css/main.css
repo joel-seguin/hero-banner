@@ -19,10 +19,14 @@ html {
 }
 
 .content {
+  width: 100%;
+  max-width: 50em;
   position: absolute;
   text-align: left;
-  top: -1rem;
-  font-family: open sans;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-left: 1.38rem;
 }
 
 img {
